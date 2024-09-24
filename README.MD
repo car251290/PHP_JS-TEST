@@ -38,17 +38,6 @@ This project demonstrates how to integrate OpenStreetMap with a PHP backend.
 
 ## License
 
-This project is licensed under the MIT License.# Initialize a new git repository if not already initialized
-git init
 
-# Add all changes to the staging area
-git add .
-
-# Commit the changes
-git commit -m "Add OpenStreetMap integration and README"
-
-# Add the remote repository (replace <repository-url> with your actual repository URL)
-git remote add origin <repository-url>
-
-# Push the changes to the remote repository
-git push -u origin main
+## Postman
+RestApis check 
