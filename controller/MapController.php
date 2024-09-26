@@ -15,6 +15,7 @@ class MapController {
         // Get all locations from the database
         $viewPath = 'views/MapView.php';
         $locations = $this->locationModel->getAllLocations();
+        include($locations  );
 
         if (file_exists($viewPath)) {
             // Include the view file

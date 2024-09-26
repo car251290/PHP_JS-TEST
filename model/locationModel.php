@@ -4,6 +4,8 @@ class LocationModel {
 
     public function __construct($db) {
         $this->db = $db;
+        include 'db_config.php';
+        $this-> db = $conn;
     }
 
     // Method to get all locations
